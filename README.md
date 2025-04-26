@@ -12,3 +12,14 @@ Projenin amacı, teslimatların en hızlı ve en verimli şekilde yapılabilmesi
 - Algoritma, **birkaç karınca** ile rotaları keşfeder ve her geçen iterasyonda en iyi rotalar üzerinde daha fazla feromon bırakır.
 - **Amaç**: Teslimat noktaları arasında en kısa ve en uygun rotaları bularak teslimat süresini ve maliyetini düşürmek.
 
+
+## Ana Parametreler
+
+- **Alpha (α)**: Feromonların yoldaki etkisi. Değer ne kadar büyükse, o kadar fazla feromon bırakan yollar tercih edilir.
+- **Beta (β)**: Yoldaki mesafenin (veya zamanın) etkisi. Değer ne kadar büyükse, daha kısa (veya hızlı) yollar tercih edilir.
+- **Rho (ρ)**: Feromon buharlaşma faktörü. Bu parametre, her iterasyonda feromonların ne kadar buharlaşacağını belirler.
+- **Q**: Feromon sabiti, karıncalar bir yolu geçtikten sonra feromon bırakma miktarını kontrol eder.
+- **Karınca Sayısı**: Her iterasyonda yolları araştıracak olan karınca (veya teslimat) sayısı.
+- **Şehir Sayısı**: Teslim edilmesi gereken yerlerin sayısı.
+
+
